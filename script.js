@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ---------- Задание 1: To-Do List ----------
   (function todoTask() {
-    const sec = createSection('Задание 1 — To-Do List');
+    const sec = createSection('Задание 1 - To-Do List');
     const input = document.createElement('input');
     input.type = 'text';
     input.placeholder = 'Введите задачу...';
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ---------- Задание 2: Галерея изображений ----------
   (function galleryTask() {
-    const sec = createSection('Задание 2 — Галерея изображений');
+    const sec = createSection('Задание 2 - Галерея изображений');
 
     // Большое изображение
     const mainImg = document.createElement('img');
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ---------- Задание 3: Аккордеон ----------
 (function accordionTask() {
-    const sec = createSection('Задание 3 — Раскрывающиеся блоки');
+    const sec = createSection('Задание 3 - Раскрывающиеся блоки');
     const container = document.createElement('div');
     container.className = 'accordion';
 
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
   })();
   // ---------- Задание 4: Динамическая таблица ----------
   (function tableTask() {
-    const sec = createSection('Задание 4 — Динамическая таблица');
+    const sec = createSection('Задание 4 - Динамическая таблица');
 
     const nameInput = document.createElement('input');
     nameInput.placeholder = 'Имя';
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ---------- Задание 5: Светофор ----------
   (function trafficLightTask() {
-    const sec = createSection('Задание 5 — Светофор');
+    const sec = createSection('Задание 5 - Светофор');
     const wrapper = document.createElement('div');
     wrapper.style.display = 'flex';
     wrapper.style.alignItems = 'center';
@@ -311,3 +311,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
    
+
